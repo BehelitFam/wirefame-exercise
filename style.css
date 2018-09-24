@@ -1,0 +1,79 @@
+header, footer {
+    background: rgb(66, 61, 61);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 80px;
+    width: 100%;
+}
+
+
+header nav {
+}
+
+header img {
+    display: inline;
+    float: left;
+    padding-left: 80px;
+}
+
+nav {
+    display: inline;
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+li {
+    color: darkgrey;
+    display: inline-block;
+    height: 70px;
+    margin: 10px;
+    width: 200px;
+    vertical-align: center;
+}
+
+main {
+}
+
+section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.spacer {
+    height: 30px;
+    width: 30px;
+}
+
+div{
+    display: inline-block;
+    width: auto;
+}
+
+.card {
+    overflow-y: auto;
+    height: 400px;
+    position: relative;
+    text-align: left;
+    width: 450px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+}
+
+button:hover {
+    background-color: black;
+    color: grey;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
